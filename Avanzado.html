@@ -20,13 +20,65 @@
       background: #343a40;
     }
   </style>
+
+<style>
+  html {
+      min-height: 100%;
+  }
+  
+  .bid { 
+      width: 300px;
+      height: 100vh;
+      background: #dfe7f0;
+      height: auto;
+      border-radius: 16px;
+      border-left: 9px solid #000;
+      
+            }
+  
+    .bic{
+  
+      width: 450px;
+      height: 350px;
+     
+      background-attachment: fixed;
+      background-color: rgb(85,85,225);
+      margin-left: 30px;
+      
+  
+    }
+      
+  .bic {
+    font-size:12px;
+    font-weight:bold;
+    padding: 6px 20px;
+    left:-20px;
+    top:-10px;
+    text-align: center;
+    color:black;
+    border-radius:25px;
+  }
+  
+
+
+.caja-destacada{
+padding:15px 15px 20px 15px;
+border-left:5px solid #F98200;
+background:#F5F5F5;
+margin-bottom:30px;
+line-height:26px !important;
+}
+  </style>
+  
+
+
 </head>
 
 
 
 
-<body>
 
+<body>
     <div class="d-flex">
         <div id="sidebar">
     
@@ -95,7 +147,7 @@
                 Basico
               </a>
             
-              <a href="Avanzado4.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
+              <a href="Avanzado3.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
                 Avanzado
               </a>
             </div>
@@ -107,11 +159,11 @@
             <i class="fa fa-tachometer mr-3" aria-hidden="true"></i>PHP
           </a>
           <div id="dashboard-items" class="collapse" data-parent="#sidebar-accordion">
-            <a href="Basico5.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
+            <a href="Basico4.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
               Basico
             </a>
           
-            <a href="Avanzado5.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
+            <a href="Avanzado4.html" class="list-group-item list-group-item-action bg-dark text-light pl-5">
               Avanzado
             </a>
           </div>
@@ -188,85 +240,134 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
-    
+                  
 
 
-                  <h3></h3>
+
+                  <h3>MySQL Avanzado</h3>
                 <p>
-SQL Avanzado  
-<br>                
+                 
 
-SQL TOP
-<br>
-SQL LITE
-<br>
-SQL WILDCARDS
-<br>
-SQL IN
-<br>
-SQL BETWEEN
-<br>
-SQL ALIAS
-<br>
-SQL JOINS
-<br>
-SQL INNER JOIN
-<br>
-SQL LEFT JOIN
-<br>
-SQL RIGHT JOIN
-<br>
-SQL FULL JOIN
-<br>
-SQL UNION
-<br>
-SQL SELECT INTO
-<br>
-SQL CREATE DATABASE
-<br>
-SQL CREATE TABLE
-<br>
-SQL RESTRICCIONES
-<br>
-SQL NOT NULL
-<br>
-SQL UNIQUE
-<br>
-SQL UNIQUE ALTER TABLE
-<br>
-SQL PRIMARY KEY
-<br>
-SQL FOREIGN KEY
-<br>
-SQL CHECK
-<br>
-SQL DEFAULT
-<br>
-SQL CREATE INDEX
-<br>
-SQL DROP
-<br>
-SQL TRUNCATE
-<br>
-SQL ALTER
-<br>
-SQL AUTO INCREMENT
-<br>
-SQL VIEWS
-<br>
-SQL DATES
-<br>
-SQL VALORES NULL
-<br>
-SQL FUNCIONES NULL
-<br>
-SQL DATOS TEXTO MySQL
-<br>
-SQL DATOS NUMERICOS MySQL
-<br>
-SQL DATOS FECHA MySQL
+
+Un sistema de base de datos suele contener varias bases de datos.
+
+Cada base de datos suele contener varias tablas.
+
+Las tablas almacenan los datos organizados por filas.
+
+Cada fila contiene varios campos.
+
+Cada campo tiene una serie de propiedades, como por ejemplo, el nombre del campo, su longitud, tipo de dato que se va a almacenar, etc.
+
+Las sentencias SQL no son sensibles a mayúsculas y minúsculas, es decir, 'SELECT' y 'select' son dos palabras iguales para SQL.
+
+Algunos sistemas de bases de datos necesitan un punto y coma después de cada sentencia SQL para ejecutarse correctamente
+
+CREATE DATATABASE mibasedeatos;
+
+Este punto y coma también puede servir para separar una sentencia SQL de otra sentencia SQL en la misma línea.
+
+CREATE DATATABASE mibasedeatos; CREATE TABLE mitabla1;
+
+
+         
+
+
+<p style="background: #dbf3fc; color: #000000; font-weight: bold; padding: 15px; border: 2px solid #cfcfcf; border-radius: 6px;">
+  
+
+
+  Las sentencias SQL se pueden agrupar por funcionalidades:
+
+1.- Lenguaje de definición de datos (DDL).
 <br>
 
+DDL está compuesto por sentencias para la creación (CREATE), modificación (ALTER) y borrado (DROP) de los componentes principales de una base de datos:
+<br>
+base de datos (DATABASE)
+<br>
+tablas (TABLE)
+<br>
+vistas (VIEW)
+<br>
+índices (INDEX)
+<br>
+procedimientos almacenados (PROCEDURE)
+<br>
+
+</p>
+
+
+
+<div class="caja-destacada">
+ 
+
+   
+
+
+SQL JOINS  <a  href="css1.html">Codigo</a>
+<br>
+SQL INNER JOIN  <a  href="css1.html">Codigo</a>
+<br>
+SQL LEFT JOIN  <a  href="css1.html">Codigo</a>
+<br>
+SQL RIGHT JOIN  <a  href="css1.html">Codigo</a>
+<br>
+SQL FULL JOIN  <a  href="css1.html">Codigo</a>
+<br>
+SQL UNION  <a  href="css1.html">Codigo</a>
+<br>
+SQL SELECT INTO  <a  href="css1.html">Codigo</a>
+<br>
+SQL CREATE DATABASE  <a  href="css1.html">Codigo</a>
+<br>
+SQL CREATE TABLE  <a  href="css1.html">Codigo</a>
+<br>
+SQL RESTRICCIONES  <a  href="css1.html">Codigo</a>
+<br>
+SQL NOT NULL  <a  href="css1.html">Codigo</a>
+<br>
+SQL UNIQUE  <a  href="css1.html">Codigo</a>
+<br>
+SQL UNIQUE ALTER TABLE  <a  href="css1.html">Codigo</a>
+<br>
+SQL PRIMARY KEY  <a  href="css1.html">Codigo</a>
+<br>
+SQL FOREIGN KEY  <a  href="css1.html">Codigo</a>
+<br>
+SQL CHECK  <a  href="css1.html">Codigo</a>
+<br>
+SQL DEFAULT  <a  href="css1.html">Codigo</a>
+<br>
+SQL CREATE INDEX  <a  href="css1.html">Codigo</a>
+
+<br>
+SQL TRUNCATE  <a  href="css1.html">Codigo</a>
+
+<br>
+SQL AUTO INCREMENT  <a  href="css1.html">Codigo</a>
+
+<br>
+SQL DATOS TEXTO MySQL  <a  href="css1.html">Codigo</a>
+<br>
+SQL DATOS NUMERICOS MySQL  <a  href="css1.html">Codigo</a>
+<br>
+SQL DATOS FECHA MySQL  <a  href="css1.html">Codigo</a>
+<br>
+
+ 
+
+
+
+
+  
+  <br>
+  
+  </div>
+  
+
+
+                  <br>
                 </p>
               </div>
             </div>
@@ -274,9 +375,6 @@ SQL DATOS FECHA MySQL
         </section>
       </div>
     </div>
-
-
-
 
 
  <!-- Optional JavaScript -->
